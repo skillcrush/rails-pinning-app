@@ -1,0 +1,21 @@
+<div class="header">
+  <h1>
+    <%= "#{@pin.title}" %>
+  </h1>
+</div>
+
+<div class="show-pin">
+  <p><%= "#{@pin.text}" %></p>
+
+  <hr/>
+  <p>
+    <b>Visit <%= "#{@pin.title}" %> at: </b>
+    <a class="url" href="<%= "#{pin.url}" %>" target="_blank">
+      <%= "#{pin.url}" %>
+    </a>
+  </p>
+</div>
+<br/>
+<a href="/">
+  Back to Home
+</a>
